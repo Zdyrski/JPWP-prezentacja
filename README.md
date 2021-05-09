@@ -1,9 +1,5 @@
 # JPWP-prezentacja
 
-## JavaFX
-
-https://openjfx.io
-
 ## Zadanie 1. Server-Client
 W metodach main() klienta i serwera użyć odpowiednich gotowych metod tak, aby:
 * nawiązać połączenie
