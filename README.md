@@ -17,4 +17,5 @@ Tak samo jak w zadaniu 1, tylko teraz zamiast String’a przesyłamy obiekt klas
 ## Zadanie 3. Wielowątkowość. 
 
 Server3 dla każdego połączonego klienta startuje wątek ClientHandler do obsługi tego klienta i dodaje go do array listy clientHandlers. ClientHandler cały czas nasłuchuje na wiadomość od swojego klienta i jeśli jakąś dostanie rozsyłą ją do pozostałych klientów.
+
 W klasie ClientHandler uzupełnić metodę sendToAll() tak, aby każdy element(oprócz tego elementu, który odebrał wiadomość) array listy clientHandlers wysłał podany jako argument obiekt message.
