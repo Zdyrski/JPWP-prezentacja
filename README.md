@@ -12,10 +12,10 @@ W metodach main() klienta i serwera użyć odpowiednich gotowych metod tak, aby:
 
 ## Zadanie 2. Przesyłanie obiektów.
 
-Tak samo jak w zadaniu 1, tylko teraz zamiast String’a przesyłamy obiekt klasy Message2.
+Podobnie jak w zadaniu 1, tylko tym razem zamiast String’a przesyłamy obiekt klasy Message2.
 
 ## Zadanie 3. Wielowątkowość. 
 
-Server3 dla każdego połączonego klienta startuje wątek ClientHandler do obsługi tego klienta i dodaje go do array listy clientHandlers. ClientHandler cały czas nasłuchuje na wiadomość od swojego klienta i jeśli jakąś dostanie rozsyłą ją do pozostałych klientów.
+Server3 dla każdego połączonego klienta startuje wątek ClientHandler do obsługi tego klienta i dodaje go do arrayListy clientHandlers. ClientHandler ciągle nasłuchuje na wiadomość od swojego klienta i jeśli jakąś dostanie rozsyła ją do pozostałych klientów.
 
-W klasie ClientHandler uzupełnić metodę sendToAll() tak, aby każdy element(oprócz tego elementu, który odebrał wiadomość) array listy clientHandlers wysłał podany jako argument obiekt message.
+W klasie ClientHandler uzupełnić metodę sendToAll() tak, aby każdy element arrayListy clientHandlers wysłał podany jako argument obiekt message. Zwróć uwagę, że element, który odebrał wiadomość nie powinien tego robić.
