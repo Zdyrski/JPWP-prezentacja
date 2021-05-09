@@ -6,9 +6,9 @@ https://openjfx.io
 
 ## Zadanie 1. Server-Client
 W metodach main() klienta i serwera użyć odpowiednich gotowych metod tak, aby:
-* - nawiązać połączenie
-* - klient wysłał wiadomość message i odczytał wiadomość od serwera
-* - serwer odebrał wiadomość i wysłał swoją 
+* nawiązać połączenie
+* klient wysłał wiadomość message i odczytał wiadomość od serwera
+* serwer odebrał wiadomość i wysłał swoją 
 
 ### W Zadaniach 2 i 3 w klasy Message muszą coś zaimplementować, aby móc przesyłać ich obiekty.
 
