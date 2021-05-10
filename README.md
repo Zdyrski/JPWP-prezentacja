@@ -1,7 +1,7 @@
 # JPWP-prezentacja
 
 ## Zadanie 1. Server-Client
-W metodach main() klienta i serwera użyć odpowiednich gotowych metod tak, aby:
+W metodach main() klienta i serwera użyć odpowiednich gotowych metod w tych klasach(createSocket(), send(), read() itd.) tak, aby:
 * nawiązać połączenie
 * klient wysłał wiadomość message i odczytał wiadomość od serwera
 * serwer odebrał wiadomość i wysłał swoją 
