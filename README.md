@@ -7,7 +7,7 @@ W metodach main() klienta i serwera użyć odpowiednich gotowych metod tak, aby:
 * serwer odebrał wiadomość i wysłał swoją 
 
 
-### W Zadaniach 2 i 3 klasy Message muszą coś zaimplementować, aby móc przesyłać ich obiekty.
+#### W Zadaniach 2 i 3 klasy Message muszą coś zaimplementować, aby móc przesyłać ich obiekty.
 
 
 ## Zadanie 2. Przesyłanie obiektów.
